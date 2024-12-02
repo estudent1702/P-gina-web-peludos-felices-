@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1A242F; /* Gris azulado oscuro */
+    color: white; /* Texto blanco para mejor contraste */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Botones más grandes */
+    margin: 15px;
+    cursor: pointer;
+    font-size: 20px; /* Aumentamos el tamaño de la fuente */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Efecto suave en el hover */
+}
+
+button:hover {
+    background-color: #45a049; /* Color de fondo cuando el cursor está encima */
+}
+
+header {
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: white;
+}
+
+.content {
+    margin-top: 40px;
+}
+
+.subBtns {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.subBtns button {
+    background-color: #3498DB; /* Azul más claro para los botones secundarios */
+    font-size: 18px;
+    padding: 12px 25px; /* Tamaño de botones más pequeño que el principal */
+    margin: 10px;
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.subBtns button:hover {
+    background-color: #2980B9; /* Azul más oscuro en hover */
+}

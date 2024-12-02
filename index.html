@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PELUDOS FELICES</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Vincula el archivo CSS -->
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Peludos Felices</h1>
+        <p>¡Peludos Felices, proyecto lleno de amor a disposición de ustedes!</p>
+    </header>
+
+    <div class="content">
+        <!-- Botón Agendar cita -->
+        <button onclick="agendarCita()">Agendar cita</button>
+        <div id="agendarCitaBtns" class="subBtns" style="display:none;">
+            <button onclick="bañoEstandar()">Baño estandar</button>
+            <button onclick="bañoEspecializado()">Baño especializado</button>
+            <button onclick="bañoMedicado()">Baño medicado</button>
+            <button onclick="bañoInsecticida()">Baño insecticida</button>
+        </div>
+
+        <!-- Botón Reseña y Testimonios -->
+        <button onclick="resenaTestimonios()">Reseña y testimonios</button>
+        <div id="resenaTestimoniosBtns" class="subBtns" style="display:none;">
+            <button onclick="reseñaCliente()">Reseña por cliente</button>
+            <button onclick="videoTestimonio()">Video</button>
+            <button onclick="redesSociales()">Redes sociales</button>
+            <button onclick="correoTestimonios()">Correo</button>
+            <button onclick="preguntasFrecuentes()">Preguntas frecuentes</button>
+        </div>
+
+        <!-- Botón Paquete de servicios -->
+        <button onclick="paqueteServicios()">Paquete de servicios</button>
+
+        <!-- Botón Blog educativo -->
+        <button onclick="blogEducativo()">Blog educativo</button>
+    </div>
+
+    <script src="script.js"></script> <!-- Vincula el archivo JavaScript -->
+</body>
+</html>
